@@ -1,13 +1,13 @@
 const express = require("express");
 const app = express();
 const product = require("./api/product");
-const pixel = require("./api/pixel");
+c//onst pixel = require("./api/pixel");
 
 app.use(express.json({ extended: false }));
 
 app.use("/api/product", product);
 //app.use("/api/increabpixel.gif", pixel);
-app.use("/api/pixel", pixel);
+//app.use("/api/pixel", pixel);
 
 
 const PORT = process.env.PORT || 8080;
