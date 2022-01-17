@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const product = require("./api/product");
+const pixel = require("./api/pixel");
 
 app.use(express.json({ extended: false }));
 
